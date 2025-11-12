@@ -31,6 +31,11 @@ body{
     
    
 }
+@media (max-width: 640px) {
+    #result {
+    width: 99%;
+    }
+}
 
 .button{
     border: 1px solid black;
@@ -53,4 +58,5 @@ body{
     color: rgb(0, 0, 0);
 
 }
+
 
