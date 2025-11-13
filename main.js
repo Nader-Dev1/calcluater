@@ -12,7 +12,7 @@ buttons.forEach(btn=>{
         result.value='';
       }else if(value === '='){
       result.value = eval(operation);
-      expression=result.value;
+      operation=result.value;
       }else if (value === '←'){
         operation =operation.slice(0,-1);
       result.value=operation;
